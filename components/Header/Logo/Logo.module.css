@@ -1,0 +1,27 @@
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fevicon{
+    height: 28px;
+    width: 28px;
+    margin: 5px;
+}
+
+.logoText{
+    font-family: var(--ff-body);
+    font-weight: 700;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .logoText{
+        display: none;
+    }
+}

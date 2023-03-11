@@ -7,11 +7,13 @@ const AllPosts = () => {
   const [allPostsData, setAllPosts] = useState(null);
 
   useEffect(() => {
+    console.log(sanityClient);
     sanityClient
       .fetch(
         `*[_type == "post"]{
         title,
         slug,
+        description,
         mainImage{
           asset->{
           _id,
@@ -39,9 +41,11 @@ const AllPosts = () => {
                 <img src={post.mainImage.asset.url} alt="" />
                 <span>
                   <h2>{post.title}</h2>
+                  <h2>{post.description}</h2>
                 </span>
               </span>
             </Link>
+            
           ))}
       </div>
     </div>

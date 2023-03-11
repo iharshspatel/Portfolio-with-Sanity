@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url("./assets/fonts/FiraSans-Medium.ttf") format("ttf");
+    }
+
+#root[data-theme="light"] {
+    color-scheme: light;
+    --color-surface-1:  hsl(0deg 0% 100%);
+    --color-surface-2:  hsl(0deg 0% 95%);
+    --color-surface-3:  hsl(0deg 0% 92%);
+    --color-surface-4:  hsl(0deg 0% 75%);
+    --color-surface-5:  hsl(0deg 0% 55%);
+    --color-surface-6:  hsl(0deg 0% 45%);
+    --color-surface-7:  hsl(0deg 0% 35%);
+    --color-surface-8:  hsl(0deg 0% 23%);
+    --color-surface-9:  hsl(0deg 0% 13%);
+    --color-text-normal:  black;
+    --color-text-soft:  hsl(0deg 0% 40%);
+    --color-text-emphasis:  black;
+    --color-text-inverted:  white;
+    --color-border:  var(--color-surface-4);
+    --color-scrollbar-thumb:  var(--color-surface-4);
+}
+
+#root[data-theme="dark"] {
+    color-scheme: dark;
+    --color-surface-1:  hsl(0deg 0% 8%);
+    --color-surface-2:  hsl(0deg 0% 13%);
+    --color-surface-3:  hsl(0deg 0% 23%);
+    --color-surface-4:  hsl(0deg 0% 30%);
+    --color-surface-5:  hsl(0deg 0% 40%);
+    --color-surface-6:  hsl(0deg 0% 50%);
+    --color-surface-7:  hsl(0deg 0% 60%);
+    --color-surface-8:  hsl(0deg 0% 70%);
+    --color-surface-9:  hsl(0deg 0% 80%);
+    --color-text-normal:  hsl(0deg 0% 87%);
+    --color-text-soft:  hsl(0deg 0% 70%);
+    --color-text-emphasis:  white;
+    --color-text-inverted:  black;
+    --color-border:  var(--color-surface-5);
+    --color-scrollbar-thumb:  var(--color-surface-5);
+}
+
+html {
+    --ff-body: 'Fira Sans', sans-serif;
+    --fw-body-regular: 400;
+    --fw-body-bold: 700;
+    --ff-mono: IBM Plex Mono,Monaco,Consolas,Courier New,monospace;
+    --fw-mono-regular: 400;
+    --fw-mono-medium: 500;
+    --fw-mono-bold: 700;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.cardContainer{
+    width: calc(33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: var(--color-surface-2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cardDate{
+    color: var(--color-text-soft);
+}
+
+.title{
+    margin: 20px 0px;
+}
+
+.title a{
+    color : var(--color-text-emphasis);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cardContainer{
+        margin-right: 0px;
+        margin-bottom: 20px;
+        background-color: var(--color-surface-2);
+        padding: 20px;
+        border-radius: 5px;
+        width: 100%;
+    }
+}

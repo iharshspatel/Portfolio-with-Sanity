@@ -1,0 +1,9 @@
+.navItems{
+    font-family: var(--ff-body);
+}
+
+.themeButton{
+    margin: 5px 20px;
+    padding: 5px 20px;
+    font-weight: 500;
+}
