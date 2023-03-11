@@ -4,6 +4,7 @@ import OnePost from "./OnePost";
 import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Home from "./Pages/Home";
+import Footer from "./Footer/Footer";
 
 function App(){
     return(
@@ -15,6 +16,7 @@ function App(){
             <Route element={<OnePost/>} path="/about" />
             <Route element={<OnePost/>} path="/blog/:slug" />
         </Routes>
+        <Footer/>
     </BrowserRouter>
   </>
 );
