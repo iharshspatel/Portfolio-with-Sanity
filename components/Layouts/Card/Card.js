@@ -7,7 +7,7 @@ const Card = ({date,title,description,slug}) => {
     <div className={Styles.cardContainer}>
         <p className={Styles.cardDate}>{date}</p>
         <h3 className={Styles.title}>
-          <Link to={`/blogs/${slug}`}>{title}</Link>
+          <Link to={`/blog/${slug}`}>{title}</Link>
         </h3>
         <p className={Styles.description}>{description}</p>
     </div>

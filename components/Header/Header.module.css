@@ -2,6 +2,10 @@
     background-color: var(--color-surface-9);
 }
 
+[data-theme=dark] .headerContainer {
+    background-color: var(--color-surface-2);
+}
+
 .navbar{
     max-width: 1100px;
     display: flex;

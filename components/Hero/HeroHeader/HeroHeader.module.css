@@ -10,7 +10,7 @@
 
 .link{
     text-decoration: underline;
-    color: black;
+    color: var(--color-text-normal);;
 }
 
 

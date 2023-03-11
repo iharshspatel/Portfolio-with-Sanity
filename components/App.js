@@ -5,6 +5,8 @@ import Header from "./Header/Header";
 import Hero from "./Hero/Hero";
 import Home from "./Pages/Home";
 import Footer from "./Footer/Footer";
+import Blog from "./Pages/Blog";
+import BlogDetailsPage from "./Pages/BlogDetails";
 
 function App(){
     return(
@@ -13,8 +15,9 @@ function App(){
         <Header/>
         <Routes>
             <Route element={<Home/>} path="/" exact />
+            <Route element={<Blog/>} path="/blog" exact />
             <Route element={<OnePost/>} path="/about" />
-            <Route element={<OnePost/>} path="/blog/:slug" />
+            <Route element={<BlogDetailsPage/>} path="/blog/:slug" />
         </Routes>
         <Footer/>
     </BrowserRouter>

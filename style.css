@@ -5,6 +5,7 @@
 }
 
 
+
 @font-face {
     font-family: "Fira Sans";
     src: url("./assets/fonts/FiraSans-Medium.ttf") format("ttf");
@@ -56,6 +57,11 @@ html {
     --fw-mono-regular: 400;
     --fw-mono-medium: 500;
     --fw-mono-bold: 700;
+}
+
+#root{
+    background-color: var(--color-surface-1);
+    color: var(--color-text-normal);
 }
 
 a{

@@ -20,6 +20,10 @@
     margin-right: 10px;
 }
 
+[data-theme=dark] .container {
+    background-color: var(--color-surface-2);
+}
+
 @media only screen and (max-width: 768px) {
     .footer{
         flex-direction: column;
