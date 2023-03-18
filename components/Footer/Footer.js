@@ -14,10 +14,10 @@ const Footer = () => {
         </div>
 
         <div className={Styles.footer2}>
-            <Link to="www.google.com">LinkedIn</Link>
-            <Link to="www.google.com">Twitter</Link>
-            <Link to="www.google.com">GitHub</Link>
-            <Link to="www.google.com">Instagram</Link>
+            <a  href="https://www.linkedin.com/in/harsh-patel-38a8b7171/"target="_blank">LinkedIn</a>
+            <a  href="https://twitter.com/patelcodes" target="_blank">Twitter</a>
+            <a  href="https://github.com/iharshspatel"  target="_blank">GitHub</a>
+            <a  href="https://www.instagram.com/harshpatel.me/"target="_blank">Instagram</a>
         </div>
         </div>
     </div>
