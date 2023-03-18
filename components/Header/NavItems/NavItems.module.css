@@ -1,5 +1,7 @@
 .navItems{
     font-family: var(--ff-body);
+    display: flex;
+    justify-content: center;
 }
 
 .themeButton{
