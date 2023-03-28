@@ -7,6 +7,7 @@ import Home from "./Pages/Home";
 import Footer from "./Footer/Footer";
 import Blog from "./Pages/Blog";
 import BlogDetailsPage from "./Pages/BlogDetails";
+import About from "./Pages/About";
 
 function App(){
     return(
@@ -16,7 +17,7 @@ function App(){
         <Routes>
             <Route element={<Home/>} path="/" exact />
             <Route element={<Blog/>} path="/blog" exact />
-            <Route element={<OnePost/>} path="/about" />
+            <Route element={<About/>} path="/about" />
             <Route element={<BlogDetailsPage/>} path="/blog/:slug" />
         </Routes>
         <Footer/>

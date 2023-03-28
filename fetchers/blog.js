@@ -5,6 +5,7 @@ function useGetBlogDetails(slugObject){
 console.log(slugObject);
 const [slug, setSlug] = useState(slugObject);
 const [postData, setPostData] = useState(null);
+const [loading, setLoading] = useState(true);
 
 
 useEffect(() => {
@@ -20,12 +21,13 @@ useEffect(() => {
     )
     .then((data) =>{
       setPostData(data[0]);
+      setLoading(false);
       console.log(postData);
     } )
     .catch(console.error);
 }, [slug]);
 
-return postData
+return [postData,loading]
 
 }
 

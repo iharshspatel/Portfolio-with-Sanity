@@ -11,5 +11,12 @@ export default  [
         "title":"Word Counter",
         "description":"Word Counter build in react which persist it's data even after browser is refreshed",
         "slug":"https://wordcounter-eosin.vercel.app/"
+    },
+
+    {
+        "date":"March 11, 2022",
+        "title":"Warranty Tracker for Erex",
+        "description":"Customer can track it's battrery's Warranty along with admin Panel for Erex",
+        "slug":"https://erex-india.herokuapp.com/"
     }
 ]

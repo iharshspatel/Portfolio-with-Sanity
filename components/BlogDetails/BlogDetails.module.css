@@ -5,3 +5,20 @@
 .codeBlock{
     margin: 20px 0px;
 }
+
+.blogDetailsContainer p{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 15px 0px;   
+}
+
+.shimmerHeading{
+    background-color: var(--color-surface-3);
+    height: 30px;
+}
+
+.shimmerParagrahp{
+    background-color: var(--color-surface-3);
+    height: 120px;
+    margin: 20px 0px;
+}
