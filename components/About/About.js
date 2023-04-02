@@ -34,7 +34,7 @@ const About = () => {
 <br/>
             
 
-            {projects && <CardContainer cards={projects} title={`My Projects`}/>}
+            {projects && <CardContainer isProjectContainer={true} cards={projects} title={`My Projects`}/>}
 
             <br/>
 <br/>

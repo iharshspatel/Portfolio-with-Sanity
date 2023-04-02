@@ -10,7 +10,7 @@ const Home = () => {
     <>
     <Hero/>
     {blogs && <CardContainer cards={blogs} title={`Recent Blogs`}/>}
-    {projects && <CardContainer cards={projects} title={`Projects`}/>}
+    {projects && <CardContainer isProjectContainer={true} cards={projects} title={`Projects`}/>}
     </>
   )
 }
